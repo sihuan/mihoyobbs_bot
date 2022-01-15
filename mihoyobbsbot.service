@@ -1,0 +1,11 @@
+[Unit]
+Description=mihoyobbs bot
+After=network.target
+ 
+[Service]
+User=sihuan
+WorkingDirectory=/path/to/bot
+ExecStart=/path/to/python main.py
+
+[Install]
+WantedBy=multi-user.target
