@@ -41,8 +41,8 @@ def get_post(post_id: str) -> Post:
 def get_posts() -> list[Post]:
     posts = []
     just_a_map = {
-        '活动': '1',
-        '公告': '2',
+        '公告': '1',
+        '活动': '2',
         '资讯': '3',
     }
     for k, v in just_a_map.items():
